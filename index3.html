@@ -4,7 +4,7 @@
  		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
  		<title>Information Point: Materialize</title>
-
+        <link rel="icon" href="img/favicon.ico"/>
   		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   		<link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -21,8 +21,11 @@
 	
 	    <!-- START NAVIGATION BAR -->
   		<nav class="indigo darken-3" role="navigation" >
-    		<div class="nav-wrapper container" style="width: 90%;"><a id="logo-container" href="#" class="brand-logo"><img src="img/ljmulogo.png" style="height: 65px; padding: 5px;"/></a>
-      			
+    		<div class="nav-wrapper container" style="width: 90%;">
+    	    	<a id="logo-container" href="https://www.ljmu.ac.uk/library" class="LJMU">
+    	    		<img src="img/ljmulogo.png" style="height: 65px; padding: 0.5em 0" alt="LJMU" style="float: left;"//>
+    	    		<img src="img/library.png" style="height: 65px; padding: 0.5em 0" alt="Library" style="float: left;"/>
+    	    	</a>		
     		</div>
   		</nav>
   		
@@ -30,7 +33,7 @@
  		<div style="background-color: white;">
   			<div class="section no-pad-bot" id="index-banner" >
     			<div class="container ">
-      				<h3 class="header center teal-text text-lighten-1">Library Search</h3>
+      				<h3 class="header center teal-text text-lighten-1">Search & Discover</h3>
 	            	<br/>
     				<form  id="simple" name="searchForm" method="get" target="_self"
     				  action="https://ljmu-primo.hosted.exlibrisgroup.com/primo-explore/search"
@@ -53,7 +56,7 @@
       					<div class="row center">
         					<div class="input-field col s12 center">
         				
-          						<input placeholder="Enter your search term" type="text" 
+          						<input placeholder="Enter a title, subject or author ..." type="text" 
           						   	   class="validate" id="primoQueryTemp" style="width: 50%; font-size: 150%; ">
           						<!-- <label for="search_term">Search Term</label> -->
       			
